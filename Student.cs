@@ -10,6 +10,14 @@ namespace Slide5
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int Grade { get; set; }
+        public float Grade { get; set; }
+        public Student(int id, string name, float grade)
+        {
+            Id = id;
+            Name = name;
+            Grade = grade;
+        }
     }
+
+
 }
